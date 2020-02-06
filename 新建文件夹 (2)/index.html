@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let datas = [{"keywords":"123",'id':'666'},{"brand_id":"3"}]
+        var ddd= localStorage.setItem('mData',JSON.stringify(datas));
+        var vvv=JSON.parse(localStorage.getItem('mData'))[0].id
+          
+        console.log(vvv)
+
+        </script>
+</body>
+</html>
